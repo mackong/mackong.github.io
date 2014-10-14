@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: MacKong -- 个人博客
+header: MacKong -- 个人博客
 ---
 {% include JB/setup %}
 
