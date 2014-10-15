@@ -154,7 +154,7 @@ Jekyll-Bootstrap自带的主题有 `bootstrap-3` 和 `twitter` 两种。如果�
 ### 代码高亮
 Jekyll进行代码高亮有多种方法。本博客使用 [Pygments](http://pygments.org)。
 
-**1. **
+**1.**
 首先通过以下命令生成一个 `syntax.css` 文件：
 
 {% highlight sh %}
@@ -169,11 +169,11 @@ Jekyll进行代码高亮有多种方法。本博客使用 [Pygments](http://pygm
 
 查看pygments支持的样式。
 
-**2. **
+**2.**
 将生成的 `syntax.css` 文件拷贝到你选择的Jekyll主题的css文件夹下。例如本博客使用的主题是 `bootstrap-3`, 对应的css文件夹路径为
  `assets/themes/bootstrap-3/css`。
 
-**3. **
+**3.**
 修改 `_includes\themes\bootstrap-3\` 目录下的 `default.html`。 此处 `bootstrap-3` 应该换成你所使用的主题名称。
 在 `default.html` 文件的第 `22` 后面添加一条代码。如下所示：
 
@@ -186,7 +186,7 @@ Jekyll进行代码高亮有多种方法。本博客使用 [Pygments](http://pygm
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 {% endhighlight %}
 
-**4. **
+**4.**
 通过以上步骤，在文章中通过以下代码：
 {% highlight text %}
 {% raw %}{% highlight c %}{% endraw %}
