@@ -22,6 +22,29 @@ h1, h2, h3, h4 {
 }
 
 /* posts index */
+ul.posts {
+	padding: 0;
+	margin: 0;
+}
+ul.posts li {
+	list-style: none; }
+
+ul.posts h3.title {
+  position: relative;
+  padding: 5px 0 10px;
+  border-bottom: 1px solid #eee; }
+
+ul.posts h3.title span.date {
+  position: absolute;
+  right: 1em;
+  font-size: 0.7em; }
+
+ul.posts p.excerpt {
+	text-indent: 2em;
+	line-height: 2em;
+}
+
+/* posts index */
 .post > h3.title {
   position: relative;
   padding-top: 10px; }
