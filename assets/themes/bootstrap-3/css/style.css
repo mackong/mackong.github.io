@@ -63,6 +63,17 @@ ul.posts p.excerpt {
   margin: 10px 0;
   text-align: left; }
 
+.img-center {
+	clear: both;
+	display: block;
+	margin: 0 auto; }
+.img-center img {
+	margin: 1.2% auto 0;
+	height: auto;
+	padding: 7px;
+	display: block;
+	border: 1px solid #e5e5e5; }
+
 /* post-full*/
 .post-full .date {
   margin-bottom: 20px;

@@ -33,7 +33,9 @@ Jekyll基于Ruby语言编写，在终端输入以下命令进行安装：
 ## 创建项目仓库
 登录 [Github](https://github.com/login) 创建一个新的项目仓库，仓库名称叫做 `USERNAME.github.io`, 其中USERNAME是你自己的github名称。如图
 
+<div class="img-center" markdown="1">
 ![创建项目仓库]({{ site.url }}/assets/imgs/create-repository.png)
+</div>
 
 **注意** 不要勾选 `Initialize this repository with a README`, 否则会导致后面的git push失败。
 
@@ -87,14 +89,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+        tracking_id : 'UA-55800220-1'
 
   sharing :
     provider : false
@@ -138,11 +133,15 @@ JB :
 Jekyll-Bootstrap自带的主题有 `bootstrap-3` 和 `twitter` 两种。如果需要其它的主题，可以去 [此处](http://themes.jekyllbootstrap.com/) 选择。
 找到满意的主题之后，点击左下角的 `Install Theme` 按钮， 会弹出如下图的界面：
 
+<div class="img-center" markdown="1">
 ![安装主题]({{ site.url }}/assets/imgs/install-theme-1.png)
+</div>
 
 拷贝其中的命令， 如下图：
 
+<div class="img-center" markdown="1">
 ![安装主题]({{ site.url }}/assets/imgs/install-theme-2.png)
+</div>
 
 在终端下，切换到博客根目录，执行上面拷贝的命令，便完成了相应主题的安装。
 
