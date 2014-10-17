@@ -11,6 +11,7 @@ PlantUML是一个命令行工具，能够十分容易的和其他工具结合使
 {% include JB/setup %}
 
 [PlantUML](http://plantuml.sourceforge.net/) 是一个开源项目，能够方便的绘制各种UML图形：
+
 - 时序图
 - 用例图
 - 类图
