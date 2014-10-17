@@ -13,6 +13,11 @@
 /*.navbar .nav {
   float: right; }*/
 
+body {
+    font-family: "Nobile", sans-serif;
+    font-size: 20px;
+}
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
   color: #f22430;
