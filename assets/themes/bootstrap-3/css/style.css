@@ -55,6 +55,13 @@ ul.posts p.excerpt {
 	line-height: 1.5em;
 }
 
+.content h2 {
+    font-weight: bold;
+    background-color: #888888;
+    color: #fff;
+    padding: 5px;
+    margin-top: 40px; }
+
 /* posts index */
 .post > h3.title {
   position: relative;
