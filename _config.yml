@@ -26,6 +26,8 @@ author :
 #
 production_url : http://mackong.github.io
 
+gems: ["jekyll-sitemap"]
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -88,7 +90,9 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : google
+    gauges :
+        site_id : 'SITE ID'
     google : 
     tracking_id : 'UA-55800220-1'
 
