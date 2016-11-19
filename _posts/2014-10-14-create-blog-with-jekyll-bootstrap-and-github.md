@@ -5,7 +5,7 @@ description: "使用Jekyll-Bootstrap和Github搭建个人博客"
 category: "杂项"
 tags: [jekyll, jekyll bootstrap, github]
 excerpt: "利用 Jekyll 和 Jekyll-Bootstrap 可以非常方便的生成一个静态站点, 利用
-Github 的 Pages 功能可以方便的将站点内容发布到网络上。结合 Jekyll 和 Github
+Github 的 Pages 功能可以方便的站点内容发布到网络上。结合 Jekyll 和 Github
 便可非常方便的搭建一个个人博客。"
 ---
 {% include JB/setup %}
